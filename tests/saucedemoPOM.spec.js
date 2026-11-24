@@ -7,6 +7,8 @@ const Checkout = require('../pages/Checkout');
 const Ordersummary = require('../pages/Ordersummary')
 const Logout = require('../pages/Logout')
 
+
+//test started
 test("Saucedemo full Automation", async({page}) =>{
     const SaucedemoLogin = new Login(page);
     await SaucedemoLogin.gotoLoginPage();
